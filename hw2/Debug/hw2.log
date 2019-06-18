@@ -1,0 +1,6 @@
+﻿C:\Program Files (x86)\Microsoft Visual Studio\2017\Professional\Common7\IDE\VC\VCTargets\Platforms\Win32\PlatformToolsets\v141_xp\Toolset.targets(39,5): warning MSB8051: 面向 Windows XP 的支持已被弃用，将来的 Visual Studio 版本不再提供该支持。请访问 https://go.microsoft.com/fwlink/?linkid=2023588，获取详细信息。
+  1.cpp
+c:\program files (x86)\microsoft sdks\windows\v7.1a\include\objbase.h(239): error C2760: 语法错误: 意外的令牌“标识符”，预期的令牌为“类型说明符”
+d:\duilib\duilib-master\duilib\core\uimanager.h(45): warning C4091: “typedef ”: 没有声明变量时忽略“DuiLib::EVENTTYPE_UI”的左侧
+c:\program files (x86)\microsoft sdks\windows\v7.1a\include\gdiplusheaders.h(891): error C4596: “EmfToWmfBits”: 成员声明中的非法限定名
+c:\program files (x86)\microsoft sdks\windows\v7.1a\include\gdiplusstringformat.h(220): error C4596: “GetTrimming”: 成员声明中的非法限定名

@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Window size="300,200"  caption="0,0,0,35" > <!-- 窗口的初始尺寸(宽800，高600)、标题栏拖拽区域(高32) -->
+  <!--<Default name="Button" value="bordersize=&quot;1&quot; bordercolor=&quot;#FF222222&quot;" />-->
+  <Font shared="true" id="1" name="微软雅黑" size="18" bold="true" color="#FFAAAAAA"/>
+  <Font shared="true" id="2" name="微软雅黑" size="13" />
+
+  <VerticalLayout>
+    <!--标题栏-->
+    <HorizontalLayout height="35" bkcolor="#FFECE493">
+        <Control bkimage="logo.png" height="35" width="35" />
+        <Label text="stop watch" padding="8" font="2"/>
+      <Control />
+      <HorizontalLayout childpadding="3" width="80" >
+        <Button name="minbtn" height="35" width="35" normalimage="min_normal.png" hotimage="min_hot.png" pushedimage="min_pushed.png"/>
+        <!--<Button name="maxbtn" height="35" width="35" normalimage="add_normal.png" hotimage="add_hot.png" pushedimage="add_pushed.png"/>-->
+        <Button name="closebtn" height="35" width="35" normalimage="close_normal.png" hotimage="close_hot.png" pushedimage="close_pushed.png"/>
+      </HorizontalLayout>
+    </HorizontalLayout>
+    <!--窗口内容区域-->
+    <HorizontalLayout bkcolor="#FF6FE8CB">
+      <VerticalLayout>
+        <text name="show_time_txt" text="show time here" front="1" bkcolor="#FFFFFF" textpadding="100,10,0,0" font="1"/>
+        <HorizontalLayout>
+          <Button name="reset_btn" text="reset" hegiht="50" width="120" normalimage="reset.png" hotimage="reset_hot.png" pushedimage="reset.png" font="1" padding="10,10,0,0"/>
+          <Button name="count_btn" text="count" hegiht="50" width="120" normalimage="count.png" hotimage="count_hot.png" pushedimage="count.png" font="1" padding="10,10,0,0" visible="false"/>
+          <Button name="start_btn" text="start" hegiht="50" width="120" normalimage="start.png" hotimage="start_hot.png" pushedimage="start.png" font="1" padding="45,10,0,0"/>
+          <Button name="pause_btn" text="pause" hegiht="50" width="120" normalimage="pause.png" hotimage="pause_hot.png" pushedimage="pause.png" font="1" padding="45,10,0,0" visible="false"/>
+
+        </HorizontalLayout>
+      </VerticalLayout>
+    </HorizontalLayout>
+  </VerticalLayout>
+</Window>
